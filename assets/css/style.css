@@ -1,0 +1,196 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+    color: #3a555c;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url('../img/sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #3a555c;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header p {
+    font-size: 1.6em;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+main {
+    width: 100%;
+}
+
+.color-divider {
+    height: 10px;
+    background-color: #26c1c1;
+}
+
+section {
+    padding: 60px 20px;
+    background-color: #fff;
+    border-top: 1px solid #e0f7f7;
+}
+
+section.intro {
+    border-top: none;
+}
+
+.access, .architecture {
+    border-top: 2px solid #e0f7f7;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #3a555c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.intro ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.imagine p, .access p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.vision {
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.vision h2 {
+    color: #3a555c;
+    font-size: 2.8em;
+}
+
+.vision p {
+    color: #3a555c;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.architecture ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.company-status p {
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.7;
+}
+
+.team h2 {
+    margin-top: 0;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-basis: 100%;
+}
+
+.member:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.member img {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-info {
+    flex: 1;
+}
+
+.member h3 {
+    color: #26c1c1;
+    font-size: 1.4em;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 40px 0;
+    border-top: 2px solid #e0f7f7;
+}
+
+footer a {
+    color: #26c1c1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.imagine, .architecture, .team {
+    background-color: #fdfdfd;
+}
+
+.access, .company-status {
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member, .member:nth-child(even) {
+        flex-direction: column;
+        text-align: center;
+    }
+} 
