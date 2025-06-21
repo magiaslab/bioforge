@@ -38,7 +38,7 @@ header p {
 }
 
 .logo img {
-    max-width: 150px;
+    max-width: 250px;
 }
 
 main {
@@ -46,8 +46,11 @@ main {
 }
 
 .color-divider {
-    height: 10px;
-    background-color: #26c1c1;
+    height: 80px;
+    background-image: url('../img/sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 section {
@@ -86,7 +89,7 @@ li {
     font-size: 1.2em;
 }
 
-.imagine p, .access p {
+.imagine p, .access p, .architecture p {
     text-align: center;
     font-size: 1.1em;
 }
@@ -109,8 +112,9 @@ li {
 }
 
 .architecture ul {
-    padding-left: 20px;
-    list-style: disc;
+    text-align: center;
+    list-style: none;
+    padding: 0;
 }
 
 .company-status p {
@@ -142,9 +146,9 @@ li {
 }
 
 .member img {
-    max-width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 8px;
     object-fit: cover;
 }
 
